@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/Cat.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/Cat.java" />
+              <option name="updatedContent" value="package org.financial.petsfactory;&#10;&#10;public class Cat implements Pet {&#10;    public String makeSound() {&#10;        return &quot;Miau&quot;;&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/CatFactory.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/CatFactory.java" />
+              <option name="updatedContent" value="package org.financial.petsfactory;&#10;&#10;public class CatFactory implements PetFactory {&#10;    public Pet createPet() {&#10;        return new Cat();&#10;    }&#10;    public PetFood createPetFood() {&#10;        return new CatFood();&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/CatFood.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/CatFood.java" />
+              <option name="updatedContent" value="package org.financial.petsfactory;&#10;&#10;public class CatFood implements PetFood {&#10;    public String getType() {&#10;        return &quot;Ração de gato&quot;;&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/Dog.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/Dog.java" />
+              <option name="updatedContent" value="package org.financial.petsfactory;&#10;&#10;public class Dog implements Pet {&#10;    public String makeSound() {&#10;        return &quot;Au Au&quot;;&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/DogFactory.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/DogFactory.java" />
+              <option name="updatedContent" value="package org.financial.petsfactory;&#10;&#10;public class DogFactory implements PetFactory {&#10;    public Pet createPet() {&#10;        return new Dog();&#10;    }&#10;    public PetFood createPetFood() {&#10;        return new DogFood();&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/DogFood.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/DogFood.java" />
+              <option name="updatedContent" value="package org.financial.petsfactory;&#10;&#10;public class DogFood implements PetFood {&#10;    public String getType() {&#10;        return &quot;Ração de cachorro&quot;;&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/Pet.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/Pet.java" />
+              <option name="updatedContent" value="package org.financial.petsfactory;&#10;&#10;public interface Pet {&#10;    String makeSound();&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/PetClient.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/PetClient.java" />
+              <option name="updatedContent" value="package org.financial.petsfactory;&#10;&#10;public class PetClient {&#10;    private Pet pet;&#10;    private PetFood food;&#10;&#10;    public PetClient(PetFactory factory) {&#10;        pet = factory.createPet();&#10;        food = factory.createPetFood();&#10;    }&#10;&#10;    public String getPetSound() {&#10;        return pet.makeSound();&#10;    }&#10;&#10;    public String getPetFoodType() {&#10;        return food.getType();&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/PetFactory.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/PetFactory.java" />
+              <option name="updatedContent" value="package org.financial.petsfactory;&#10;&#10;public interface PetFactory {&#10;    Pet createPet();&#10;    PetFood createPetFood();&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/PetFood.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/financial/petsfactory/PetFood.java" />
+              <option name="updatedContent" value="package org.financial.petsfactory;&#10;&#10;public interface PetFood {&#10;    String getType();&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/petsfactory/Cat.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/petsfactory/Cat.java" />
+              <option name="updatedContent" value="package org.petsfactory;&#10;&#10;public class Cat implements Pet {&#10;    public String makeSound() {&#10;        return &quot;Miau&quot;;&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/petsfactory/CatFood.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/petsfactory/CatFood.java" />
+              <option name="updatedContent" value="package org.petsfactory;&#10;&#10;public class CatFood implements PetFood {&#10;    public String getType() {&#10;        return &quot;Ração de gato&quot;;&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/petsfactory/Dog.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/petsfactory/Dog.java" />
+              <option name="updatedContent" value="package org.petsfactory;&#10;&#10;public class Dog implements Pet {&#10;    public String makeSound() {&#10;        return &quot;Au Au&quot;;&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/petsfactory/DogFood.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/petsfactory/DogFood.java" />
+              <option name="updatedContent" value="package org.petsfactory;&#10;&#10;public class DogFood implements PetFood {&#10;    public String getType() {&#10;        return &quot;Ração de cachorro&quot;;&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/petsfactory/Pet.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/petsfactory/Pet.java" />
+              <option name="updatedContent" value="package org.petsfactory;&#10;&#10;public interface Pet {&#10;    String makeSound();&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/petsfactory/PetFactory.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/petsfactory/PetFactory.java" />
+              <option name="updatedContent" value="package org.petsfactory;&#10;&#10;public interface PetFactory {&#10;    Pet createPet();&#10;    PetFood createPetFood();&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/petsfactory/PetFood.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/petsfactory/PetFood.java" />
+              <option name="updatedContent" value="package org.petsfactory;&#10;&#10;public interface PetFood {&#10;    String getType();&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/org/financial/petsfactory/PetFactoryTest.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/test/java/org/financial/petsfactory/PetFactoryTest.java" />
+              <option name="updatedContent" value="package org.financial.petsfactory;&#10;&#10;import org.junit.jupiter.api.Assertions;&#10;import org.junit.jupiter.api.Test;&#10;&#10;public class PetFactoryTest {&#10;    @Test&#10;    public void testDogFactory() {&#10;        PetFactory factory = new DogFactory();&#10;        PetClient client = new PetClient(factory);&#10;        Assertions.assertEquals(&quot;Au Au&quot;, client.getPetSound());&#10;        Assertions.assertEquals(&quot;Ração de cachorro&quot;, client.getPetFoodType());&#10;    }&#10;&#10;    @Test&#10;    public void testCatFactory() {&#10;        PetFactory factory = new CatFactory();&#10;        PetClient client = new PetClient(factory);&#10;        Assertions.assertEquals(&quot;Miau&quot;, client.getPetSound());&#10;        Assertions.assertEquals(&quot;Ração de gato&quot;, client.getPetFoodType());&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
